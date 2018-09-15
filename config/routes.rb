@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'welcome/welcome'
+  get 'welcome/bio'
+  get 'welcome/commission'
+  get 'welcome/store'
+  root 'welcome#welcome'
 end

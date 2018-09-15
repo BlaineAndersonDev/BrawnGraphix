@@ -1,0 +1,61 @@
+/* Blank Responsive Section */
+/* .blank_flex_media{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: #323232;
+  // Most Smartphones Mobiles (Portrait)
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+  // Low Resolution Tablets, Mobiles (Landscape)
+    @media (min-width: 481px) and (max-width: 767px) {
+    }
+  // Tablets, Ipads (portrait)
+    @media (min-width: 768px) and (max-width: 1024px) {
+    }
+  // Laptops, Desktops
+    @media (min-width: 1025px) and (max-width: 1280px) {
+    }
+  // Desktops
+    @media (min-width: 1281px) {
+    }
+} */
+
+/* Welcome Begin */
+.welcome_wrapper{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: #323232;
+  // Most Smartphones Mobiles (Portrait)
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+  // Low Resolution Tablets, Mobiles (Landscape)
+    @media (min-width: 481px) and (max-width: 767px) {
+    }
+  // Tablets, Ipads (portrait)
+    @media (min-width: 768px) and (max-width: 1024px) {
+    }
+  // Laptops, Desktops
+    @media (min-width: 1025px) and (max-width: 1280px) {
+    }
+  // Desktops
+    @media (min-width: 1281px) {
+    }
+}
+/* Welcome End */
+
+/* Bio Begin */
+/* Bio End */
+
+/* Commission Begin */
+/* Commission End */
+
+/* Store Begin */
+/* Store End */
