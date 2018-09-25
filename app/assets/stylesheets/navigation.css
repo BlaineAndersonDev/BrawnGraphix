@@ -69,4 +69,20 @@
     @media (min-width: 1281px) {
     }
 }
+
+@keyframes scroll-down {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+
 /* Navigation End */
