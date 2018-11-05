@@ -88,10 +88,11 @@
     padding: 0;
     list-style: none;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 80%;
   }
   .foot_art_list_cont{
     flex: 1 0 calc(100% * (1/3) - 90px);
