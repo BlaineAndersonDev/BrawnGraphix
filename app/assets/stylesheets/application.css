@@ -41,16 +41,44 @@
      }
  } */
 
- body, html {
+ *, body, html {
    margin:0;
    padding:0;
  }
- #site_container{
-    min-height:100%;
-    position:relative;
-    padding-bottom: 200px;
-}
 
 .color-palette{
 
 }
+
+#site_container{
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 200px;
+  /* This forces all background images to load beforehand, preventing a flicker when changing backgrounds using JQuery. */
+  background: url('Background2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#site_nav_container{
+
+}
+#site_body_container{
+   background: none;
+}
+#site_foot_container{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-top: 3px black solid;
+   background: url('portfolio_background_01.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
