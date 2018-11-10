@@ -77,8 +77,4 @@
    align-items: center;
    text-align: center;
    border-top: 3px black solid;
-   background: url('portfolio_background_01.jpg') no-repeat center center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
+}
