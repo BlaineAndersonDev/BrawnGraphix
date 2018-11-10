@@ -46,15 +46,9 @@
    padding:0;
  }
 
-.color-palette{
-
-}
-
 #site_container{
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 200px;
-  /* This forces all background images to load beforehand, preventing a flicker when changing backgrounds using JQuery. */
+  display: flex;
+  flex-direction: column;
   background: url('Background2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -65,16 +59,10 @@
 
 }
 #site_body_container{
-   background: none;
+  min-height: 100vh;
+  background: rgba(50, 50, 50, 0.8);
 }
 #site_foot_container{
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   border-top: 3px black solid;
+  border-top: 3px black solid;
+  background: blue;
 }
