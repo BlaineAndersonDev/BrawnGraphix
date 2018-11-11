@@ -83,6 +83,8 @@
     // Most Smartphones Mobiles (Portrait)
       @media (min-width: 320px) and (max-width: 480px) {
         font-size: 1em;
+        margin-left: 10px;
+        margin-right: 10px;
       }
     // Low Resolution Tablets, Mobiles (Landscape)
       @media (min-width: 481px) and (max-width: 767px) {
@@ -101,7 +103,8 @@
         font-size: 2em;
       }
   }
-  // LINKS - LEFT & RIGHT FOOTER BOXS
+  // ==================================
+  // Art Section
   .foot_list_cont{
     list-style: none;
     display: flex;
@@ -130,7 +133,7 @@
         flex-flow: row wrap;
       }
   }
-  .foot_list_item{
+  .foot_art_list_item{
     color: rgba(255, 255, 255, 0.5);
     border: rgba(187, 187, 187, 0.5) 1px solid;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
@@ -159,14 +162,15 @@
       @media (min-width: 1281px) {
       }
   }
-  .foot_list_item:hover{
+  .foot_art_list_item:hover{
     cursor: pointer;
     color: rgba(255, 255, 255, 1);
     border: rgba(255, 255, 255, 1) 1px solid;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.0);
   }
-  // IMAGE - CENTER FOOTER BOX
+  // ==================================
+  // Media Section
   .foot_img_list_cont{
     list-style: none;
     display: flex;
@@ -232,6 +236,8 @@
         filter:contrast(100%);
       }
     }
+  // ==================================
+  // Product Section
   .foot_product_list_cont{
     flex: 1 0 calc(100% * (1/3) - 90px);
     margin: 0;
@@ -259,4 +265,106 @@
       @media (min-width: 1281px) {
       }
   }
+  .foot_product_list_item{
+    color: rgba(255, 255, 255, 0.5);
+    border: rgba(187, 187, 187, 0.5) 1px solid;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+    // Most Smartphones Mobiles (Portrait)
+      @media (min-width: 320px) and (max-width: 480px) {
+        // flex: 1 0 calc(100% * (1/3) - 10px);
+        font-size: 0.8em;
+        width: 95%;
+        height: 15px;
+        padding: 4px;
+        margin: 3px;
+      }
+    // Low Resolution Tablets, Mobiles (Landscape)
+      @media (min-width: 481px) and (max-width: 767px) {
+      }
+    // Tablets, Ipads (portrait)
+      @media (min-width: 768px) and (max-width: 1024px) {
+      }
+    // Laptops, Desktops
+      @media (min-width: 1025px) and (max-width: 1280px) {
+      }
+    // Desktops
+      @media (min-width: 1281px) {
+      }
+  }
+  .foot_product_list_item:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    border: rgba(255, 255, 255, 1) 1px solid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.0);
+  }
+  // ==================================
+  // Contact & Comission Section
+  .foot_contact_list_cont{
+    flex: 1 0 calc(100% * (1/3) - 90px);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80%;
+    // Most Smartphones Mobiles (Portrait)
+      @media (min-width: 320px) and (max-width: 480px) {
+      }
+    // Low Resolution Tablets, Mobiles (Landscape)
+      @media (min-width: 481px) and (max-width: 767px) {
+      }
+    // Tablets, Ipads (portrait)
+      @media (min-width: 768px) and (max-width: 1024px) {
+      }
+    // Laptops, Desktops
+      @media (min-width: 1025px) and (max-width: 1280px) {
+      }
+    // Desktops
+      @media (min-width: 1281px) {
+      }
+  }
+  .foot_contact_list_item{
+    color: rgba(255, 255, 255, 0.5);
+    border: rgba(187, 187, 187, 0.5) 1px solid;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+    // Most Smartphones Mobiles (Portrait)
+      @media (min-width: 320px) and (max-width: 480px) {
+        // flex: 1 0 calc(100% * (1/3) - 10px);
+        font-size: 1em;
+        width: 120px;
+        height: 15px;
+        padding: 6px;
+        margin: 4px;
+      }
+    // Low Resolution Tablets, Mobiles (Landscape)
+      @media (min-width: 481px) and (max-width: 767px) {
+      }
+    // Tablets, Ipads (portrait)
+      @media (min-width: 768px) and (max-width: 1024px) {
+      }
+    // Laptops, Desktops
+      @media (min-width: 1025px) and (max-width: 1280px) {
+      }
+    // Desktops
+      @media (min-width: 1281px) {
+      }
+  }
+  .foot_contact_list_item:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    border: rgba(255, 255, 255, 1) 1px solid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.0);
+  }
+
 /* Footer End */
