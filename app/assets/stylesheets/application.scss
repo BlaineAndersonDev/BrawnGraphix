@@ -44,6 +44,7 @@
  *, body, html {
    margin:0;
    padding:0;
+   transition: all 0.5s ease-in-out;
  }
 
 #site_container{
@@ -54,6 +55,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: auto 0;
 }
 #site_nav_container{
 
@@ -63,6 +65,20 @@
   background: rgba(50, 50, 50, 0.8);
 }
 #site_foot_container{
-  border-top: 3px black solid;
-  background: blue;
+  width: 100%;
+  // Most Smartphones Mobiles (Portrait)
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+  // Low Resolution Tablets, Mobiles (Landscape)
+    @media (min-width: 481px) and (max-width: 767px) {
+    }
+  // Tablets, Ipads (portrait)
+    @media (min-width: 768px) and (max-width: 1024px) {
+    }
+  // Laptops, Desktops
+    @media (min-width: 1025px) and (max-width: 1280px) {
+    }
+  // Desktops
+    @media (min-width: 1281px) {
+    }
 }

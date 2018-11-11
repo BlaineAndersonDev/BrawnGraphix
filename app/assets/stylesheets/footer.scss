@@ -1,79 +1,104 @@
 /* Footer Begin */
 #foot_wrapper{
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  background: rgba(65, 65, 63, 1);
-  width: 100%;
-  height: 100%;
-  // Most Smartphones Mobiles (Portrait)
-    @media (min-width: 320px) and (max-width: 480px) {
-    }
-  // Low Resolution Tablets, Mobiles (Landscape)
-    @media (min-width: 481px) and (max-width: 767px) {
-    }
-  // Tablets, Ipads (portrait)
-    @media (min-width: 768px) and (max-width: 1024px) {
-    }
-  // Laptops, Desktops
-    @media (min-width: 1025px) and (max-width: 1280px) {
-    }
-  // Desktops
-    @media (min-width: 1281px) {
-    }
-}
-#foot_items{
-  display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   color: white;
   width: 100%;
-  height: 200px;
+  background: rgba(65, 65, 63, 1);
+  // Most Smartphones Mobiles (Portrait)
+    @media (min-width: 320px) and (max-width: 480px) {
+      border: red 1px solid;
+      height: 250px; // Height of footer bar
+    }
+  // Low Resolution Tablets, Mobiles (Landscape)
+    @media (min-width: 481px) and (max-width: 767px) {
+      border: blue 1px solid;
+      height: 200px; // Height of footer bar
+    }
+  // Tablets, Ipads (portrait)
+    @media (min-width: 768px) and (max-width: 1024px) {
+      border: yellow 1px solid;
+      height: 200px; // Height of footer bar
+    }
+  // Laptops, Desktops
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      border: green 1px solid;
+      height: 225px; // Height of footer bar
+    }
+  // Desktops
+    @media (min-width: 1281px) {
+      border: purple 1px solid;
+      height: 250px; // Height of footer bar
+    }
 }
 .foot_section{
-  /* border: red 1px solid; */
   flex: 1 0 calc(100% * (1/3) - 90px);
-  height: 100%;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
-  padding-bottom:50px;
-  padding-top:50px;
   // Most Smartphones Mobiles (Portrait)
     @media (min-width: 320px) and (max-width: 480px) {
+      height: 95%;
+      margin: 5px;
     }
   // Low Resolution Tablets, Mobiles (Landscape)
     @media (min-width: 481px) and (max-width: 767px) {
+      height: 90%;
+      margin: 10px;
     }
   // Tablets, Ipads (portrait)
     @media (min-width: 768px) and (max-width: 1024px) {
+      height: 90%;
+      margin: 10px;
     }
   // Laptops, Desktops
     @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 80%;
+      margin: 20px;
     }
   // Desktops
     @media (min-width: 1281px) {
+      height: 70%;
+      margin: 25px;
     }
 }
   .foot_title{
     width: 80%;
-    margin-bottom: 10px;
-    font-size: 1.5em;
     color: rgba(255, 255, 255, 0.5);
     border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
+    // Most Smartphones Mobiles (Portrait)
+      @media (min-width: 320px) and (max-width: 480px) {
+        margin-bottom: 10px;
+        font-size: 1em;
+      }
+    // Low Resolution Tablets, Mobiles (Landscape)
+      @media (min-width: 481px) and (max-width: 767px) {
+        margin-bottom: 15px;
+        font-size: 1em;
+      }
+    // Tablets, Ipads (portrait)
+      @media (min-width: 768px) and (max-width: 1024px) {
+        margin-bottom: 15px;
+        font-size: 1em;
+      }
+    // Laptops, Desktops
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+      }
+    // Desktops
+      @media (min-width: 1281px) {
+        margin-bottom: 20px;
+        font-size: 2em;
+      }
   }
   .foot_art_list_cont{
-    flex: 1 0 calc(100% * (1/3) - 90px);
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
     flex-flow: row wrap;
@@ -81,6 +106,21 @@
     align-items: center;
     text-align: center;
     height: 80%;
+    // Most Smartphones Mobiles (Portrait)
+      @media (min-width: 320px) and (max-width: 480px) {
+      }
+    // Low Resolution Tablets, Mobiles (Landscape)
+      @media (min-width: 481px) and (max-width: 767px) {
+      }
+    // Tablets, Ipads (portrait)
+      @media (min-width: 768px) and (max-width: 1024px) {
+      }
+    // Laptops, Desktops
+      @media (min-width: 1025px) and (max-width: 1280px) {
+      }
+    // Desktops
+      @media (min-width: 1281px) {
+      }
   }
   .foot_col_list_cont{
     flex: 1 0 calc(100% * (1/3) - 90px);
@@ -95,10 +135,10 @@
     height: 80%;
   }
     .foot_list_item{
+      flex: 1 0 calc(100% * (1/3) - 10px);
       color: rgba(255, 255, 255, 0.5);
       border: rgba(187, 187, 187, 0.5) 1px solid;
       box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
-      flex: 1 1 1;
       height: auto;
       width: 45%;
       padding: 3px;
