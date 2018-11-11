@@ -10,29 +10,29 @@
   background: rgba(65, 65, 63, 1);
   // Most Smartphones Mobiles (Portrait)
     @media (min-width: 320px) and (max-width: 480px) {
-      border: red 1px solid;
+      // border: red 1px solid;
       height: 400px; // Height of footer bar
     }
   // Low Resolution Tablets, Mobiles (Landscape)
     @media (min-width: 481px) and (max-width: 767px) {
-      border: blue 1px solid;
+      // border: blue 1px solid;
       height: 360px; // Height of footer bar
     }
   // Tablets, Ipads (portrait)
     @media (min-width: 768px) and (max-width: 1024px) {
-      border: yellow 1px solid;
+      // border: yellow 1px solid;
       height: 380px; // Height of footer bar
     }
   // Laptops, Desktops
     @media (min-width: 1025px) and (max-width: 1280px) {
-      border: green 1px solid;
+      // border: green 1px solid;
       height: 400px; // Height of footer bar
       padding-top: 20px;
       padding-bottom: 20px;
     }
   // Desktops
     @media (min-width: 1281px) {
-      border: purple 1px solid;
+      // border: purple 1px solid;
       height: 420px; // Height of footer bar
       padding-top: 20px;
       padding-bottom: 20px;
